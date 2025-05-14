@@ -9,7 +9,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/index.js'),
       name: 'ReactUIComponentsFormAndCard',
-      fileName: (format) => `index.${format}.js`,
+      fileName: (format) => `raj-wasserstoff-FrontEndInternTask2.${format}.js`,
     },
     rollupOptions: {
       

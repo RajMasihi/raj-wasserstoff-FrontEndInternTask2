@@ -1,14 +1,14 @@
 {
   "name": "raj-wasserstoff-frontendinterntask2",
   "version": "1.0.0",
-  "main": "dist/index.umd.js",
-  "module": "dist/index.es.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/raj-wasserstoff-FrontEndInternTask2.umd.js",
+  "module": "dist/raj-wasserstoff-FrontEndInternTask2.es.js",
+  
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/index.es.js",
-      "require": "./dist/index.umd.js"
+      "import": "./dist/raj-wasserstoff-FrontEndInternTask2.es.js",
+      "require": "./dist/raj-wasserstoff-FrontEndInternTask2.umd.js"
     }
   },
   "files": [

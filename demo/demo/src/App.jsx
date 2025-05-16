@@ -1,9 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
-import Form from "./components/form/Form";
-import Displaycard from "./components/displaycard/Displaycard";
+import { Form, Displaycard } from "raj-wasserstoff-frontendinterntask2";
 
 function App() {
   const [page, setPage] = useState("demo1");

@@ -7,8 +7,9 @@ export default defineConfig({
   plugins: [react()],
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/index.js'),
-      name: 'ReactUIComponents form and card by raj',
+      entry: path.resolve(__dirname, 'index.js'),
+      name: 'ReactUIComponentsFormcardByRaj',
+      formats: ['es', 'umd'],
       fileName: (format) => `index.${format}.js`,
     },
     rollupOptions: {
@@ -22,4 +23,5 @@ export default defineConfig({
       },
     },
   },
+  
 })

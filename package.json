@@ -1,10 +1,21 @@
 {
   "name": "raj-wasserstoff-frontendinterntask2",
-  "private": true,
   "version": "1.0.0",
+<<<<<<< HEAD
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+=======
+  "main": "dist/raj-wasserstoff-FrontEndInternTask2.umd.js",
+  "module": "dist/raj-wasserstoff-FrontEndInternTask2.es.js",
+  
+>>>>>>> df98461d0ce6c7d4e6302327d2c3b0a9f83e4486
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/raj-wasserstoff-FrontEndInternTask2.es.js",
+      "require": "./dist/raj-wasserstoff-FrontEndInternTask2.umd.js"
+    }
+  },
   "files": [
     "dist"
   ],
@@ -14,11 +25,17 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+<<<<<<< HEAD
   
   "dependencies": {
     "bootstrap": "^5.3.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
+=======
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+>>>>>>> df98461d0ce6c7d4e6302327d2c3b0a9f83e4486
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",

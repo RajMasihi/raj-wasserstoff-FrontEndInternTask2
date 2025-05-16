@@ -1,5 +1,5 @@
 import React from "react";
-import "./form.css";
+import "./Form.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Input from "./Input";
